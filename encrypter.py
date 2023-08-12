@@ -8,7 +8,7 @@ file.close()
 
 os.remove("test.txt")
 
-key = b"Key with you want"
+key = b"Key who you want"
 aes = pyaes.AESModeOfOperationCTR(key)
 
 crypto_data = aes.encrypt(file_data)
